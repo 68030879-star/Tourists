@@ -1,3 +1,4 @@
+# Tourists
 # คำอธิบายข้อมูล (Data Description)
 
 โฟลเดอร์นี้อธิบายข้อมูลที่ใช้ในโครงงาน **Trend and Pattern Analysis of International Tourists Arriving in Thailand from 2015 to 2023**
@@ -14,14 +15,15 @@
 
 | ตำแหน่งไฟล์ | คำอธิบาย |
 | --- | --- |
-| `[data/raw/it_salary.csv](https://data.go.th/dataset/trend_inbound_tourists)` | ไฟล์ดิบตามที่ดาวน์โหลดมา **ห้ามแก้ไขด้วยมือ** มี 30,049 แถว 5 คอลัมน์ (รวมคอลัมน์ Timestamp ในไฟล์ที่ตรวจ) |
+| `[data/raw/it_salary.csv](https://data.go.th/dataset/trend_inbound_tourists)` | ไฟล์ดิบตามที่ดาวน์โหลดมา **ห้ามแก้ไขด้วยมือ** มี 30,048 แถว 6 คอลัมน์ (รวมคอลัมน์ Timestamp ในไฟล์ที่ตรวจ) |
+| `C:\\Users\\Administrator\\Downloads\\tourists_all(1)_cleaned(1).csv` | ข้อมูลที่ทำความสะอาดแล้ว มี 20,316 แถว 5 คอลัมน์ |
 
-วิธีสร้างไฟล์ที่ประมวลผลแล้วขึ้นใหม่: วางไฟล์ดิบที่ `c:\Users\Administrator\Downloads\tourists_all(1).csv` แล้วรัน python `C:\Users\Administrator\Downloads\Project-2`
+วิธีสร้างไฟล์ที่ประมวลผลแล้วขึ้นใหม่: วางไฟล์ดิบที่ `C:\\Users\\Administrator\\Downloads\\tourists_all(1)_cleaned(1).csv` แล้วรัน python `"C:\Users\Administrator\Downloads\Project-2.2(1)\Project-2.2.ipynb"`
 
 
-## 3. พจนานุกรมข้อมูล (Data Dictionary) ของ `c:\Users\Administrator\Downloads\tourists_all(1).csv`
+## 3. พจนานุกรมข้อมูล (Data Dictionary) ของ `C:\\Users\\Administrator\\Downloads\\tourists_all(1)_cleaned(1).csv`
 
-ข้อมูลหลังจากทำความสะอาดแล้วมีทั้งหมด 20,317 แถว ตารางต่อไปนี้แสดงชื่อคอลัมน์ ชนิดข้อมูล คำอธิบาย และจำนวนค่าว่างของแต่ละคอลัมน์
+ข้อมูลหลังจากทำความสะอาดแล้วมีทั้งหมด 30,048 แถว ตารางต่อไปนี้แสดงชื่อคอลัมน์ ชนิดข้อมูล คำอธิบาย และจำนวนค่าว่างของแต่ละคอลัมน์
 
 | คอลัมน์ | ชนิดข้อมูล | คำอธิบาย / ค่าที่เป็นไปได้ | ค่าว่าง |
 | --- | --- | --- | ---: |
